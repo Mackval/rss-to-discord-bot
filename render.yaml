@@ -1,6 +1,0 @@
-services:
-  - type: worker
-    name: rss-to-discord-bot
-    runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python rss_to_discord.py"
